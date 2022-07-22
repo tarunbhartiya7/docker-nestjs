@@ -76,6 +76,8 @@ Nest is [MIT licensed](LICENSE).
 
 This POC is a reference from https://blog.logrocket.com/containerized-development-nestjs-docker/
 
+- Add a .env file with SERVER_PORT=3000
+
 ```
 docker build -t app-name .
 docker run -it --rm -p 4000:3000 docker-starter
